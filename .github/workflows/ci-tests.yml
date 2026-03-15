@@ -61,7 +61,7 @@ jobs:
               uses: astral-sh/setup-uv@v7
               with:
                   python-version: "3.14"
-            - run: uvx tox -e py314-cover,coverage
+            - run: uvx tox -e py314,coverage
     docs:
         runs-on: ubuntu-24.04
         name: Build the documentation
