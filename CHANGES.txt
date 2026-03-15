@@ -21,6 +21,10 @@ Feature
 
 - Add support for Python 3.12.
 
+- Add support for Python 3.13.
+
+- Add support for Python 3.14.
+
 - Add Request.remote_host, exposing REMOTE_HOST environment variable.
 
 - Added ``acceptparse.Accept.parse_offer`` to codify what types of offers
@@ -38,7 +42,7 @@ Compatibility
 Backwards Incompatibilities
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-- Drop support for Python 2.7, 3.4, 3.5, 3.6, and 3.7.
+- Drop support for Python 2.7, 3.4, 3.5, 3.6, 3.7, 3.8 and 3.9
 
 Experimental Features
 ~~~~~~~~~~~~~~~~~~~~~

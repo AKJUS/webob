@@ -351,7 +351,7 @@ class Response:
             _http = b"HTTP/"
 
         if status.startswith(_http):
-            (http_ver, status_num, status_text) = status.split(None, 2)
+            http_ver, status_num, status_text = status.split(None, 2)
             status = f"{text_(status_num)} {text_(status_text)}"
 
         while 1:
